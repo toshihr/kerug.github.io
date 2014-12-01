@@ -1,7 +1,8 @@
 My python wheels
-=============
+================
 
-# PySide for Yosemite
+PySide for Yosemite
+--------------------
 
 The wheel was built as follows:
 
@@ -11,7 +12,7 @@ $ cd pyside-setup
 $ python setup.py bdist_wheel --universal
 ```
 
-## How to install
+### How to install
 
 ```sh
 pip install --find-links=https://kerug.github.io/python-wheelhouse --use-wheel --no-index --pre PySide
